@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".VisualiserOffreActivity" >
+
+      <TextView
+          android:id="@+id/textrenseignerid"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:text="@string/offre"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/textid"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textrenseignerid"
+           android:layout_marginLeft="0dp"
+           android:text="@string/id" />
+
+       <TextView
+           android:id="@+id/texttitre"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/id"
+           android:layout_marginTop="15dp"
+           android:text="@string/titre" />
+
+       <TextView
+           android:id="@+id/textcategorie"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/texttitre"
+           android:layout_marginTop="16dp"
+           android:text="@string/categorie" />
+
+       <TextView
+           android:id="@+id/textcontrat"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textcategorie"
+           android:layout_below="@+id/textcategorie"
+           android:layout_marginTop="19dp"
+           android:text="@string/contrat" />
+
+       <TextView
+           android:id="@+id/textcompetence"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textcontrat"
+           android:layout_below="@+id/textcontrat"
+           android:layout_marginTop="16dp"
+           android:text="@string/competence" />
+
+       <TextView
+           android:id="@+id/textavantage"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textcompetence"
+           android:layout_centerVertical="true"
+           android:text="@string/avantages" />
+
+       <TextView
+           android:id="@+id/textdatecloture"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/btnPostuler"
+           android:layout_alignLeft="@+id/textdatedebut"
+           android:text="@string/datecloture" />
+
+       <TextView
+           android:id="@+id/textdatedebut"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/textdatecloture"
+           android:layout_alignLeft="@+id/textemail"
+           android:layout_marginBottom="18dp"
+           android:text="@string/datedebut" />
+
+       <TextView
+           android:id="@+id/textemail"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/textdatedebut"
+           android:layout_alignLeft="@+id/textavantage"
+           android:layout_marginBottom="22dp"
+           android:text="@string/email" />
+
+       <TextView
+           android:id="@+id/textdescription"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textavantage"
+           android:layout_below="@+id/textavantage"
+           android:layout_marginTop="20dp"
+           android:text="@string/description" />
+
+       <TextView
+           android:id="@+id/titre"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/textcategorie"
+           android:layout_alignParentRight="true"
+           android:layout_toRightOf="@+id/textcompetence"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/categorie"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/textcategorie"
+           android:layout_toRightOf="@+id/textrenseignerid"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/contrat"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/textcompetence"
+           android:layout_alignLeft="@+id/titre"
+           android:layout_alignRight="@+id/titre"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/competences"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/textcompetence"
+           android:layout_alignLeft="@+id/btnPostuler"
+           android:layout_toLeftOf="@+id/avantage"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/avantage"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/textdescription"
+           android:layout_alignLeft="@+id/btnPostuler"
+           android:layout_alignRight="@+id/titre"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/description"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/textdescription"
+           android:layout_alignLeft="@+id/avantage"
+           android:layout_alignRight="@+id/avantage"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/email"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/textemail"
+           android:layout_alignRight="@+id/description"
+           android:layout_toRightOf="@+id/competences"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/datedebut"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/textdatedebut"
+           android:layout_alignBottom="@+id/textdatedebut"
+           android:layout_alignLeft="@+id/titre"
+           android:layout_alignRight="@+id/email"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/datecloture"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/datedebut"
+           android:layout_alignRight="@+id/datedebut"
+           android:layout_below="@+id/textdatedebut"
+           android:text="" />
+
+       <TextView
+           android:id="@+id/id"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/textid"
+           android:layout_alignBottom="@+id/textid"
+           android:layout_alignRight="@+id/textrenseignerid" />
+
+       <Button
+           android:id="@+id/btnPostuler"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="0dp"
+           android:layout_toRightOf="@+id/textavantage"
+           android:text="@string/postuler" />
+
+</RelativeLayout>

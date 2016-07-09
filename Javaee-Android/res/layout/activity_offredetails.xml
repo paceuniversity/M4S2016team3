@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+     <TextView
+         android:id="@+id/listons"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:text="@string/listons"
+         android:textColor="@android:color/black"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="30dp" />
+
+     <TextView
+         android:id="@+id/txtid"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/listons"
+         android:layout_marginTop="33dp"
+         android:text="@string/id"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/idoffre"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/txtid"
+         android:layout_marginTop="22dp"
+         android:text="" />
+
+     <TextView
+         android:id="@+id/titre"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/idoffre"
+         android:layout_alignLeft="@+id/txttitre"
+         android:text="" />
+
+     <TextView
+         android:id="@+id/txtdatecloture"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/idoffre"
+         android:layout_alignRight="@+id/listons"
+         android:text="@string/datecloture"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/txttitre"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/idoffre"
+         android:layout_marginRight="49dp"
+         android:layout_toLeftOf="@+id/txtdatecloture"
+         android:text="@string/titre"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/date"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/txtdatecloture"
+         android:layout_alignTop="@+id/titre"
+         android:layout_marginRight="36dp"
+         android:layout_marginTop="16dp" />
+
+</RelativeLayout>

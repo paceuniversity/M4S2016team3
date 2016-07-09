@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.guette.javaee.PresentationActivity" >
+     
+     <item
+        android:id="@+id/listerOffre"
+        android:orderInCategory="100"
+        android:textColor="@android:color/black"
+        android:title="@string/title_activity_listeroffre"/>
+    
+     <item
+        android:id="@+id/chercherOffre"
+        android:orderInCategory="100"
+        android:textColor="@android:color/black"
+        android:title="@string/title_activity_chercheroffre"/>
+     
+     <item
+        android:id="@+id/creerCV"
+        android:orderInCategory="100"
+        android:textColor="@android:color/black"
+        android:title="@string/title_activity_creercv"/>
+     
+      <item
+        android:id="@+id/editerCV"
+        android:orderInCategory="100"
+        android:textColor="@android:color/black"
+        android:title="@string/title_activity_editercv"/>
+    
+     <item
+        android:id="@+id/menuGeoMap"
+        android:orderInCategory="100"
+        android:textColor="@android:color/black"
+        android:title="@string/localiser"/>
+     
+       <item
+        android:id="@+id/menuAbout"
+        android:orderInCategory="100"
+        android:textColor="@android:color/black"
+        android:title="@string/apropos"/>
+    
+</menu>
