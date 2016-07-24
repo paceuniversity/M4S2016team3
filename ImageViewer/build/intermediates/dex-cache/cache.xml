@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_efb4c9560359fb35aec59eacd44ed20ec12dcf8b\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_faec2efac865ff938a84cabcf27ffe32476ed62b\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_a6b3559ed42655255dda245adc63747c48959f25\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_c113ba0f53f26b2890be2756aeb4146434d473ec\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dc952229b90035f7b532418d7cb4ba61430991b0">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_eb17db1a78f3f6a029e5428fab02fa193dae234a\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_50813f9f763c6b3f11e0f39311c0e342ab7441cf\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_3d5b450e018c50b0d84b7c6b9da667441386882f\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_81ec2312e98fda5ad391f653322bb86fa522a47f\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_cf3f6d9757c9d4dffb4c7ba978937c715acc8f2b\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ae79e0549de5bcb08285f42e747f93bd75bdb581">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ImageViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cf09ad4e91ede479d2b0e903b3bb58c12ba99ede\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,2 @@
+CHANGED,A:\AndroidStudio\ProgrammeM4SA\MenuProject\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,A:\AndroidStudio\ProgrammeM4SA\MenuProject\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\guette\menuproject\MainActivityFragment$1$override.class
