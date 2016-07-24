@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_cad3f3e75a4d986f5feaea07b2586b467bc5d155\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_81ec2312e98fda5ad391f653322bb86fa522a47f\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="995d17f8cdd44d657e7eff65fdeeb1cc34efd198">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3e7816b6140230e63cac93ca901cde03182d30de\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_5c6d61722300b7290576441dd79dcdd009d90112\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_b5ddfdd6bd850e8e02632533e3e7ee3d885fda02\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_9f7e37c7446c047f447c30a1d8bdc65d52710adc\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_c326dde228e8fd62e4521d99b7309812680cedf3\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_2eabeef6461fa1b9d61d18b4413bd43246316c93\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="74c177f720b8fa8b4d423a880b34a0b39ab9a5c6">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_53e44c0cae34368cb84774cd3db0abf006b3da8a\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\AsyncTaskProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_800cc017209090fe87540a5e324cf559993998c7\classes.dex" />
+    </item>
+
+</items>

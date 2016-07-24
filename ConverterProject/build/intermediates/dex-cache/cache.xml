@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_5ee4b64ec6e6bfc5d9425e9c7ef1b5f3e60880e1\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_cf486f5cf143b059922d9643b91706be27939a8f\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="064639235906fcf7bf7314b2337c004608f3d7bc">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_49429d7adfee08ca77abdf294b51883ea31b0106\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_b98c1f53d8e94c0aea4f5c7e41a6a19197c9062e\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_81ec2312e98fda5ad391f653322bb86fa522a47f\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8ed13fedb5e76058ade0b233aa78d622d77267ef">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_619a592deee70a45901e136803f8955cf740021a\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_da0746083f9c807c758dd15a71fd41949d7d56b9\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_c82632536b2dba88cf0b8977a7fdb1dbf90af97c\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_a3256a1cc008c6af3c99cdeaec40f7943efb5c42\classes.dex" />
+    </item>
+    <item
+        jar="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="A:\AndroidStudio\ProgrammeM4SA\ConverterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_573f72e293346c8bd90ec4be41a7ae56eeff92bc\classes.dex" />
+    </item>
+
+</items>
