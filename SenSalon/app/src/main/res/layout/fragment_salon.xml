@@ -9,5 +9,11 @@
     tools:context="com.m4s2016.sensalon.SalonActivityFragment"
     tools:showIn="@layout/activity_salon">
 
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
 
 </RelativeLayout>

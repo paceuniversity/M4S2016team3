@@ -21,7 +21,7 @@ public class ModeleDao {
     static SQLiteDatabase sqLiteDatabase;
     static SenSalonDatabaseHelper senSalonDatabaseHelper;
 
-    String[] all_modeles= {SenSalonDatabaseHelper.IDMODELE,SenSalonDatabaseHelper.MODELNAME,SenSalonDatabaseHelper.MODELDURATION,SenSalonDatabaseHelper.MODELPRICE,SenSalonDatabaseHelper.SALON_ID};
+    String[] all_modeles= {SenSalonDatabaseHelper.IDMODELE,SenSalonDatabaseHelper.MODELNAME,SenSalonDatabaseHelper.MODELDURATION,SenSalonDatabaseHelper.MODELPRICE,SenSalonDatabaseHelper.IMAGE,SenSalonDatabaseHelper.SALON_ID};
 
     private Context context;
     private Modele model;
@@ -51,6 +51,7 @@ public class ModeleDao {
         values.put(SenSalonDatabaseHelper.MODELNAME,modele.getModelName());
         values.put(SenSalonDatabaseHelper.MODELDURATION,modele.getModelDuration());
         values.put(SenSalonDatabaseHelper.MODELPRICE,modele.getModelPrice());
+        values.put(SenSalonDatabaseHelper.IMAGE,modele.getImage());
         values.put(SenSalonDatabaseHelper.SALON_ID,_idSalon);
         Long idInsert=
                  sqLiteDatabase.insert(SenSalonDatabaseHelper.TABLENAMEMODEL, null, values);
@@ -96,11 +97,6 @@ public class ModeleDao {
         modele.setModelPrice(cursor.getString(3));
         modele.setSalonId(cursor.getLong(4));
 
-//        int idSalon= cursor.getInt(4);
-//        SalonDao salonDao = new SalonDao(context);
-//        Salon salon=salonDao.getSalonById(idSalon);
-//        if (salon != null)
-//            modele.setSalon(salon);
         return modele;
     }
 

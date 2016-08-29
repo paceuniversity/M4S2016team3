@@ -9,17 +9,18 @@ public class Modele {
     private String modelName;
     private String modelDuration;
     private String modelPrice;
-//    private Salon salon;
+    private int image;
     private long salonId;
 
     public Modele() {
     }
 
-    public Modele(long idModele, String modelName, String modelDuration, String modelPrice) {
+    public Modele(long idModele, String modelName, String modelDuration, String modelPrice, int image) {
         this.idModele = idModele;
         this.modelName = modelName;
         this.modelDuration = modelDuration;
         this.modelPrice = modelPrice;
+        this.image = image;
     }
 
     public long getIdModele() {
@@ -61,11 +62,12 @@ public class Modele {
     public void setSalonId(long salonId) {
         this.salonId = salonId;
     }
-    //    public Salon getSalon() {
-//        return salon;
-//    }
-//
-//    public void setSalon(Salon salon) {
-//        this.salon = salon;
-//    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
 }

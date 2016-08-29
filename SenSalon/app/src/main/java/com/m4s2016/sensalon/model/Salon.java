@@ -12,8 +12,6 @@ public class Salon {
     private String adresse;
     private String telephone;
     private String typeSalon;
-//    private Street street;
-//    private Proprietaire proprietaire;
     private long streetId;
     private long proprietaireId;
 
@@ -37,22 +35,6 @@ public class Salon {
     public void setIdSalon(long idSalon) {
         this.idSalon = idSalon;
     }
-
-//    public Proprietaire getProprietaire() {
-//        return proprietaire;
-//    }
-//
-//    public void setProprietaire(Proprietaire proprietaire) {
-//        this.proprietaire = proprietaire;
-//    }
-//
-//    public Street getStreet() {
-//        return street;
-//    }
-//
-//    public void setStreet(Street street) {
-//        this.street = street;
-//    }
 
     public long getStreetId() {
         return streetId;

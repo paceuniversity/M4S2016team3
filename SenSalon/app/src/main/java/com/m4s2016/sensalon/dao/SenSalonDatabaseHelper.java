@@ -17,6 +17,7 @@ public class SenSalonDatabaseHelper extends SQLiteOpenHelper {
     public static final String MODELNAME="modelName";
     public static final String MODELDURATION="modelDuration";
     public static final String MODELPRICE="modelPrice";
+    public static final String IMAGE="image";
     public static final String SALON_ID="salon_idSalon";
 
     // Data: Columns of the Proprietaire table
@@ -63,6 +64,7 @@ public class SenSalonDatabaseHelper extends SQLiteOpenHelper {
             MODELNAME + " TEXT NOT NULL, "+
             MODELDURATION + " TEXT NOT NULL, "+
             MODELPRICE + " INTEGER NOT NULL, "+
+            IMAGE + " INTEGER NOT NULL, "+
             SALON_ID + " INTEGER NOT NULL "+
             ")";
 

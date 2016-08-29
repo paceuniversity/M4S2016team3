@@ -48,21 +48,21 @@ public class UserDao {
         senSalonDatabaseHelper.close();
     }
 
-    public long createUser(User user){
+    public User createUser(User user){
         ContentValues values= new ContentValues();
         values.put(SenSalonDatabaseHelper.IDUSER,user.getIdUser());
         values.put(SenSalonDatabaseHelper.PRENOMUSER,user.getPrenom());
         values.put(SenSalonDatabaseHelper.NOMUSER,user.getNom());
         values.put(SenSalonDatabaseHelper.USERNAME,user.getUsername());
         values.put(SenSalonDatabaseHelper.PASSWORD,user.getPassword());
-//        Long idInsert=
-                return sqLiteDatabase.insert(SenSalonDatabaseHelper.TABLENAMEUSER, null, values);
-//        Cursor cursor=sqLiteDatabase.query(SenSalonDatabaseHelper.TABLENAMEUSER, all_users, SenSalonDatabaseHelper.IDSTREET + " = "+
-//                idInsert,null,null,null,null);
-//        cursor.moveToFirst();
-//        User user1= cursorToUser(cursor);
-//        cursor.close();
-//        return user1;
+        Long idInsert=
+                 sqLiteDatabase.insert(SenSalonDatabaseHelper.TABLENAMEUSER, null, values);
+        Cursor cursor=sqLiteDatabase.query(SenSalonDatabaseHelper.TABLENAMEUSER, all_users, SenSalonDatabaseHelper.IDSTREET + " = "+
+                idInsert,null,null,null,null);
+        cursor.moveToFirst();
+        User user1= cursorToUser(cursor);
+        cursor.close();
+        return user1;
     }
 
     public List<User> getAllUsers() {

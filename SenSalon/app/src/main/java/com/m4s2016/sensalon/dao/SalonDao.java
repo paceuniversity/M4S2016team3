@@ -49,7 +49,7 @@ public class SalonDao {
         senSalonDatabaseHelper.close();
     }
 
-       public long createSalon(Salon salon, long _idStreet,long _idProprietaire){
+       public Salon createSalon(Salon salon, long _idStreet,long _idProprietaire){
         ContentValues values= new ContentValues();
         values.put(SenSalonDatabaseHelper.IDSALON,salon.getIdSalon());
         values.put(SenSalonDatabaseHelper.NOMSALON,salon.getNomSalon());
@@ -60,14 +60,14 @@ public class SalonDao {
         values.put(SenSalonDatabaseHelper.TYPESALON,salon.getTypeSalon());
         values.put(SenSalonDatabaseHelper.STREET_ID,_idStreet);
         values.put(SenSalonDatabaseHelper.PROPRIETAIRE_ID,_idProprietaire);
-//        Long idInsert=
-                return sqLiteDatabase.insert(SenSalonDatabaseHelper.TABLENAMESALON, null, values);
-//        Cursor cursor=sqLiteDatabase.query(SenSalonDatabaseHelper.TABLENAMESALON, all_salons, SenSalonDatabaseHelper.IDSALON + " = "+
-//                idInsert,null,null,null,null);
-//        cursor.moveToFirst();
-//        Salon salon1= cursorToSalon(cursor);
-//        cursor.close();
-//        return salon1 ;
+        Long idInsert=
+                 sqLiteDatabase.insert(SenSalonDatabaseHelper.TABLENAMESALON, null, values);
+        Cursor cursor=sqLiteDatabase.query(SenSalonDatabaseHelper.TABLENAMESALON, all_salons, SenSalonDatabaseHelper.IDSALON + " = "+
+                idInsert,null,null,null,null);
+        cursor.moveToFirst();
+        Salon salon1= cursorToSalon(cursor);
+        cursor.close();
+        return salon1 ;
     }
 
     public List<Salon> getAllSalons() {
