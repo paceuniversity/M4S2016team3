@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SenSalon</string>
+    <string name="action_settings">Settings</string>
+    <string name="maps">Maps</string>
+    <string name="salon">Liste des salons</string>
+    <string name="modele">Liste des modèles</string>
+    <string name="faqs">Faq</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_salon">Salon</string>
+    <string name="title_activity_modele">Modele</string>
+    <string name="title_activity_faqs">Faqs</string>
+    <string name="title_activity_details_salon">Details Salon</string>
+    <string name="title_activity_details_modele">Details Modele</string>
+    <string name="modelname">Model Name</string>
+    <string name="model_price">Model Price</string>
+    <string name="model_duration">Model Duration</string>
+    <string name="salon_name">Salon Name</string>
+    <string name="image_modele">Image Modele</string>
+    <string name="image_salon">Image Salon</string>
+    <string name="nom_salon">Nom Salon</string>
+    <string name="type_salon">Type Salon</string>
+    <string name="adresse">Adresse</string>
+    <string name="telephone">Telephone</string>
+    <string name="proprietaire">Proprietaire</string>
+    <string name="street">Street</string>
+    <string name="trouver_l_itineraire">Trouver l\'itineraire</string>
+</resources>
