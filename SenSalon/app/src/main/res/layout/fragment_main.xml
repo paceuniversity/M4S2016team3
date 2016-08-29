@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.m4s2016.sensalon.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:contentDescription="@string/maps"
+            android:layout_marginTop="@dimen/marginTopAndBottom"
+            android:layout_marginStart="@dimen/marginSartAndEnd"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/maps"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:contentDescription="@string/salon"
+            android:layout_marginTop="@dimen/marginTopAndBottom"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/marginSartAndEnd"
+            android:src="@drawable/salon"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:contentDescription="@string/modele"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/marginSartAndEnd"
+            android:layout_marginBottom="@dimen/marginTopAndBottom"
+            android:src="@drawable/modele"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:contentDescription="@string/faqs"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="@dimen/marginTopAndBottom"
+            android:layout_marginEnd="@dimen/marginSartAndEnd"
+
+            android:src="@drawable/faq"/>
+
+    </RelativeLayout>
