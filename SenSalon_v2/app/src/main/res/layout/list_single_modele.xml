@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/single_imagemodele"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/woman_with_long_hair"
+            />
+
+        <TextView
+            android:id="@+id/single_textmodele"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:text="Nom Modéle"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            />
+
+    </TableRow>
+
+</TableLayout>
